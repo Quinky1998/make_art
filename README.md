@@ -10,7 +10,7 @@ Then this beautiful function will generate a moving polygon with random colors a
 Either way, it will be unique to you. Some even say that the colors are chosen based on the mood you are in...
 
 
-![image](https://github.com/Quinky1998/make_art/assets/157707416/6ccd7648-6711-42d2-81f3-5b5f2e31f883)
+![preview](https://github.com/Quinky1998/make_art/assets/157707416/d26d2c9c-f2ac-47b7-b174-ae38c6fe83d0)
 
 
 
