@@ -18,7 +18,7 @@ Either way, it will be unique to you. Some even say that the colors are chosen b
 The following code must be run to get access to this box of endless creations:
 
 ```
-make_art <- function(type = type, seed = NULL) {
+make_art <- function(seed = NULL) {
   if (!is.null(seed)) {
     set.seed(seed)
   } else {
