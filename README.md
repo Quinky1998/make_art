@@ -1,12 +1,24 @@
 # make_art
 Turn into Van Gogh with this amazing function!
-All you have to do is choose a number to set the seed and ensure reproducibility, e.g. make_art(seed = 123).
+All you have to do is choose a number to set the seed and ensure reproducibility, e.g.:
+
+```
+make_art(seed = 123 )
+```
+
 Then this beautiful function will generate a moving polygon with random colors and shapes or a pointillistic masterpiece!
 Either way, it will be unique to you. Some even say that the colors are chosen based on the mood you are in...
 
-The following code must be ran to get the function:
 
-'''make_art <- function(type = type, seed = NULL) {
+![image](https://github.com/Quinky1998/make_art/assets/157707416/6ccd7648-6711-42d2-81f3-5b5f2e31f883)
+
+
+
+
+The following code must be run to get access to this box of endless creations:
+
+```
+make_art <- function(type = type, seed = NULL) {
   if (!is.null(seed)) {
     set.seed(seed)
   } else {
@@ -50,4 +62,5 @@ The following code must be ran to get the function:
     plot <- gridExtra::grid.arrange(grobs = plot_list, ncol = 3)
   }
   return(plot)
-}'''
+}
+```
