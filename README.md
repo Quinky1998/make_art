@@ -15,6 +15,7 @@ make_art <- function(type = type, seed = NULL) {
    type = sample(c("poly", "scatter"), 1)
   
    if (type == "poly") {
+    
     x <- runif(4, min = 0, max = 100)
     y <- runif(4, min = 0, max = 100)
    
