@@ -6,7 +6,7 @@ Either way, it will be unique to you. Some even say that the colors are chosen b
 
 The following code must be ran to get the function:
 
-make_art <- function(type = type, seed = NULL) {
+'''make_art <- function(type = type, seed = NULL) {
   if (!is.null(seed)) {
     set.seed(seed)
   } else {
@@ -50,4 +50,4 @@ make_art <- function(type = type, seed = NULL) {
     plot <- gridExtra::grid.arrange(grobs = plot_list, ncol = 3)
   }
   return(plot)
-}
+}'''
