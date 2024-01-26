@@ -1,4 +1,4 @@
-# make_art
+# Let's make (super abstract) art!
 Turn into Van Gogh with this amazing function!
 All you have to do is choose a number to set the seed and ensure reproducibility, e.g.:
 
