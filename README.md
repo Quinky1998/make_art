@@ -3,7 +3,7 @@ Turn into Van Gogh with this amazing function!
 All you have to do is choose a number to set the seed and ensure reproducibility, e.g.:
 
 ```
-make_art(seed = 123 )
+make_art(123)
 ```
 
 Then this beautiful function will generate a moving polygon with random colors and shapes or a colorful collection of tiles!
